@@ -1,3 +1,4 @@
+// Package balloon provides an automatic libvirt memory balloon daemon.
 package balloon
 
 import (
