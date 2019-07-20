@@ -27,7 +27,7 @@ In a nutshell, libvirt memory ballooning *exists* but is an essentially manual p
 
 ## Future plans
 
-See #1.
+See [#1](https://github.com/Pandentia/balloond/issues/1).
 
 ## Stability
 
