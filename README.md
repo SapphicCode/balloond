@@ -1,6 +1,6 @@
 # balloond
 
-An automatic libvirt memory ballooning daemon.
+An automatic libvirt memory balloon daemon.
 
 ## Building
 
@@ -27,9 +27,7 @@ In a nutshell, libvirt memory ballooning *exists* but is an essentially manual p
 
 ## Future plans
 
-Right now, the "guaranteed free memory" default is set in the balloon config itself. In future, I may attempt to derive this from notes within the domain's config. For instance, a build host may consume memory faster than a web server, and may need a larger watermark to compensate for this (so it doesn't run out of memory).
-
-Another potential option would be to have a secondary daemon reporting memory statistics from inside the VM itself, for better accuracy.
+See #1.
 
 ## Stability
 
